@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head><title>this is first static program</title>
+        <style>
+            body{
+                margin:10px;
+                box-sizing:border-box;
+            }
+    .li{
+
+        float: left;
+        width: 25%;
+        color: white;
+        background-color:rgb(10, 10, 10);
+        font-size: 30px;
+        text-decoration: none;
+        display: block;
+    
+    }
+ navbar{
+        position: fixed;
+        width: 100%;
+    }
+    .li a:hover{
+        color: red;
+    }
+    .li a{
+        display: block;
+        color: white;
+        text-decoration: none;  
+    }
+   
+    .demo{
+        text-align: center;
+        font-size: 100px;
+        opacity: 1.0;
+        color: rgb(13, 13, 14);
+    }
+    .demo1{
+        text-align: center;
+        font-size: 30px;
+        opacity: 1.0;
+        color: rgb(7, 6, 6);
+    }
+    .int{
+        background: url("company1.jpg") no-repeat 100%;
+        background-size: cover;
+       
+
+
+    }
+    .t6{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .t7{
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .taaj{color: rgb(19, 18, 18);
+     text-align: center}
+     .t1{color: rgb(8, 8, 8);font-size: 25px;text-align: center}
+     .t2{font-size: 25px;text-align: center}
+     .t3{text-align:center}
+    .temp{
+         height:750px;
+         background-color: rgba(198, 223, 240, 0.911);
+     }
+     
+     #raza{background-color: rgba(198, 223, 240, 0.911) }
+    .r1{text-align: center;
+        color: rgb(3, 3, 3);}
+        .r2{text-align: center;
+        background-color:rgba(198, 223, 240, 0.911)}
+        .r3{font-size:50px;
+           color: black;
+            }
+        .r4{font-size: 35px;
+        background-color: rgba(198, 223, 240, 0.911)}
+      
+</style>
+    </head>
+    <body>
+        <navbar>
+            <nav>
+                <li class="li"><a href="#Home">HOME</a></li>
+                <li class="li"><a href="#Contact">CONTACT US</a></li>
+                <li class="li"><a href="#signup">SIGNUP</a></li>
+                <li class="li"><a href="#signin">SIGNIN</a></li>
+            </nav>
+        </navbar>
+        <div id="Home">
+        <table height="700px" width="100%" class="int">
+            
+                <tr>
+                    <td>
+                 <h1 class="demo">Thruskills</h1>
+                 <p class="demo1">welcome to the Full Stack Developement Course</p>
+                 </td>
+                 </tr>
+            
+                 
+                 </table>
+                </div>
+
+                 <div class="temp" id="Contact"><br><br>
+                        <h1 class="taaj">WELCOME TO THRUSKILLS</h1><br>
+                   
+        <form>
+            <table border="0px" cellspacing="0" class="t6" height="500px" width="100%" >      
+           <tr> 
+               <td><b class="t1" >Enter your Name:</b></td>
+               <td><input type="text" name="uname" placeholder="enter your Name" class="t2"></td></tr>
+          <tr> <td><b class="t1">D.O.B:</b> </td>
+            <td><input class="t2"></td></tr>
+            <tr><td><b class="t1">Gender:</b></td>
+            <td><input type="radio" name="Gender" value="Male" class="t2" ><b>Male</b>
+            <input type="radio" name="Gender" value="Female" class="t2"><b>Female</b></td></tr>
+           <tr><td><b class="t1">Email Id:</b></td>
+            <td> <input type="email" name="email" placeholder="enter your Email id" class="t2"></td></tr>
+           <tr><td> <b class="t1">Contact No.:</b></td>
+            <td> <input type="number" name="" value="" class="t2"></td></tr>
+           <tr> <td><b class="t1">Address:</b></td>
+             <td><input type="text" name="" value="" class="t2"></td></tr>
+            <tr><td><b class="t1">Qualification:</b></td>
+             <td>
+                <input type="checkbox" name="Subject1" value="10th" class="t2"><b>10th</b>
+                <input type="checkbox" name="Subject2" value="12th" class="t2"><b>12th</b>
+                <input type="checkbox" name="Subject3" value="Diploma" class="t2"><b>Diploma</b>
+                <input type="checkbox" name="Subject4" value="B.Tech" class="t2"><b>B.Tech</b><br>
+                </select></td></tr>
+            <tr><td><b class="t1">Course:</b></td>
+            <td> <select name="Qualification" name="" class="t2">
+                <option value="1">Select</option>
+                <option value="2">Mean stack</option>
+                <option value="3">Mern stack</option>
+                <option value="4">.Net</option>
+                <option value="4">AWS</option>
+                </td></tr>
+           <tr><td><b class="t1">STATE:</b></td>
+            <td><select name="state"class="t2">
+                <option value="1">Select</option>
+                <option value="2">Delhi</option>
+                <option value="3">Bihar</option>
+                <option value="4">Banglore</optio>
+                </select></td></tr>
+            </table>
+         <h2 class="t3">  <a href="contact.html" class="taaj">REGISTER</a></h2>
+         </form>
+         </div>
+         <div id="signin" class="temp"><br><br>><br>
+                <h1 class="r1">WELCOME TO THRUSKILLS</h1><br> 
+        
+                <table border="0px" width="100%" height="650px" >   
+               <tr style="text-align:center;"> 
+                   <td width="35%"></td>
+                   <td class="r2" width="30%" >
+                        <form action=""  method="GET">  
+                       <h1 class="r3">SIGN IN</h1>
+                    <i><input class="r4" type="text" name="uname"  placeholder="enter user name" class="r4"></i><br>
+               <input  id="r4"type="password" name="password" placeholder="enter Password" class="r4"><br>
+               <h1 ><a href="contact.html" class="r3">Submit</a></h1></td>
+               <td width="30%"></td>
+            </tr>
+            </table>
+         </div>
+         <div id="signup" class="temp" height="550px"><br><br><br>
+                <h1 class="taaj">Ceate Your Account</h1><br>
+                <form>
+                        <table border="0px" cellspacing="0" class="t7" height="550px" width="100%" >      
+                       <tr> 
+                           <td><b class="t1" >Enter your Name:</b></td>
+                           <td><input type="text" name="uname" placeholder="enter your Name" class="t2"></td></tr>
+                      <tr> <td><b class="t1">D.O.B:</b> </td>
+                        <td><input class="t2"></td></tr>
+                        <tr><td><b class="t1">Gender:</b></td>
+                        <td><input type="radio" name="Gender" value="Male" class="t2" ><b>Male</b>
+                        <input type="radio" name="Gender" value="Female" class="t2"><b>Female</b></td></tr>
+                       <tr><td><b class="t1">Email Id:</b></td>
+                        <td> <input type="email" name="email" placeholder="enter your Email id" class="t2"></td></tr>
+                       <tr><td> <b class="t1">Contact No.:</b></td>
+                        <td> <input type="number" name="" value="" class="t2"></td></tr>
+                       <tr> <td><b class="t1">Address:</b></td>
+                         <td><input type="text" name="" value="" class="t2"></td></tr>
+                        <tr><td><b class="t1">Qualification:</b></td>
+                         <td>
+                            <input type="checkbox" name="Subject1" value="10th" class="t2"><b>10th</b>
+                            <input type="checkbox" name="Subject2" value="12th" class="t2"><b>12th</b>
+                            <input type="checkbox" name="Subject3" value="Diploma" class="t2"><b>Diploma</b>
+                            <input type="checkbox" name="Subject4" value="B.Tech" class="t2"><b>B.Tech</b><br>
+                            </select></td></tr>
+                        <tr><td><b class="t1">Course:</b></td>
+                        <td> <select name="Qualification" name="" class="t2">
+                            <option value="1">Select</option>
+                            <option value="2">Mean stack</option>
+                            <option value="3">Mern stack</option>
+                            <option value="4">.Net</option>
+                            <option value="4">AWS</option>
+                            </td></tr>
+                       <tr><td><b class="t1">STATE:</b></td>
+                        <td><select name="state"class="t2">
+                            <option value="1">Select</option>
+                            <option value="2">Delhi</option>
+                            <option value="3">Bihar</option>
+                            <option value="4">Banglore</optio>
+                            </select></td></tr>
+                            <tr> 
+                                    <td><b class="t1" >Enter Username:</b></td>
+                                    <td><input type="text" name="uname" placeholder="enter user name" class="t2"></td></tr>
+                                    <tr> 
+                                            <td><b class="t1" >Enter New Password:</b></td>
+                                            <td><input type="password" name="password" placeholder="enter new password" class="t2"></td></tr>
+                                            <tr> 
+                                                    <td><b class="t1" >Re-Enter your Password:</b></td>
+                                                    <td><input type="password" name="password" placeholder="Re-Enter your Password" class="t2"></td></tr>
+                            
+                        </table>
+                        </form>
+                     <h2 class="t3">  <a href="#signin" class="taaj">SIGNUP</a></h2>
+                     
+                     </div>
+            
+         </div>
+    </body>
+</html>
